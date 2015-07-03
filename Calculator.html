@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head> 
+<meta charset="utf-8" />
+<title>Simple Calculator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	
+	<!--Scripts-->
+	<script type="text/javascript" src="js/script.js"></script>
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	</head>
+
+<body>
+
+
+<div class="container">
+	<div id="header">
+		<div class="twelevecol">
+		<p> </p>
+		</div>
+	</div>
+	
+	<div id="content">
+		<div class="twelevecol">
+		
+		
+		<input type="text" placeholder= "Enter in number" id="var1">	
+		</div>
+		
+	
+		<div class="twelevecol">
+	
+		<input type="text" placeholder= "Enter in number" id="var2">		
+		
+		</div>
+		
+		
+		
+		<!--Operation Buttons-->
+		
+		<div class="threecol">
+		<form>
+		<input type="button" value = "Add" onclick= "add()" />
+		</form>
+		</div>
+		
+		<div class="threecol">
+		<form>
+		<input type="button" value = "Subtract" onclick= "subtract()" />
+		</form>
+		</div>
+		
+		<div class="threecol">
+		<form>
+		<input type="button" value = "Multiply" onclick= "multiply()" />
+		</form>
+		</div>
+		
+		<div class="threecol last">
+		<form>
+		<input type="button" value = "Divide" onclick= "divide()" />
+		</form>
+		</div>
+		
+	
+</div>
+
+</body>
+</html>
